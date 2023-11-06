@@ -1,0 +1,106 @@
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.inline-block{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.inline-block li{
+    padding: 2%;
+}
+
+.logo{
+    width:23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    padding: 1%;
+}
+
+header ul{
+    width:50%;
+    margin-left: auto;
+    list-style: none;
+}
+
+.heroimg{
+    height: 300px;
+    width: 100%;
+    padding: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.content{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.content img{
+    height: 600px;
+}
+
+footer{
+    background-color: #373738;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+footer li{
+display: inline-block;
+vertical-align: top;
+padding:5% 5% 5% 5%;
+list-style: none;
+color: white;
+
+}
+
+.downloadLink a{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    background-color: lightgreen;
+    color: black;
+}
+
+#footerList{
+    width: 100%;
+    display: flex;
+    
+}
+
+.footerLogo{
+    padding-top: 65px;
+}
+
+.ISCimage img {
+    width:800px;
+}
+
+.center {
+    text-align: center;
+}
+
+.left{
+ /*   text-align: left;*/
+
+}
+
+.cuteParagraph{
+    width: 500px;
+    text-align: left;
+    text-indent: 50px;
+    line-height: 1.5;
+}
+
+.cuteHeading h3{
+    width: 500px;
+    text-align: left;
+    background-color: blue;
+
+} 
