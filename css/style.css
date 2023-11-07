@@ -132,9 +132,9 @@ footer a{
 
 }
 
-.padding35{
+.padding20{
 
-    padding: 35px;
+    padding: 20px;
 }
 
 .space-evently{
@@ -142,7 +142,7 @@ footer a{
     justify-content: space-evenly;
 }
 
-#protoPersona {
+.medImage {
     width: 600px;
 }
 
@@ -154,3 +154,57 @@ footer a{
 .Largerimages {
     width: 600px;
 }
+
+.Smolimages{
+    width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cuteParagraph{
+        width: 90%;
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    .medImage {
+        width: 90%;
+    }
+    
+    .images {
+        width: 90%;
+    
+    }
+    
+    .Largerimages {
+        width: 90%;
+
+    }
+    
+    .Smolimages{
+        width: 100px;
+    }
+
+    .mobileHide{
+        visibility: hidden;
+    }
+
+    .ISCimage img {
+        width:90%;
+    }
+
+    .hero{
+        display: inline-block;
+        width: 90%;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 90%;
+    }
+
+    .inline-block {
+        display: block;
+    }
+
+
+  }
